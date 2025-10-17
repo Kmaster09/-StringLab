@@ -74,7 +74,7 @@ public class StringLab {
         }
         System.out.println("Is \"" + word + "\" a palindrome? " + isPalindrome);
 
-        // 🔂 Do...While Loop: Input Validation
+        
         Scanner scanner = new Scanner(System.in);
         String input;
         do {
@@ -83,7 +83,7 @@ public class StringLab {
         } while (!input.contains("Java"));
         System.out.println("Thank you!");
 
-        // Task 3: Working with StringBuilder
+        
         StringBuilder sb = new StringBuilder("StringBuilder Lab");
         sb.append(" - Learning Java");
         sb.insert(sb.indexOf("Lab") + 3, " is fun");
@@ -92,7 +92,7 @@ public class StringLab {
         sb.delete(start, end);
         System.out.println("StringBuilder reversed: " + sb.reverse());
 
-        // Task 4: Working with StringBuffer
+        
         StringBuffer sf = new StringBuffer("Multithreading Lab");
         sf.append(" - Learning Java");
         sf.insert(sf.indexOf("Lab") + 3, " is fun");
